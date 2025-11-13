@@ -28,7 +28,7 @@ const InstallationCard = ({ app, onUninstall }) => {
       </div>
       <button
         onClick={() => onUninstall(id)}
-        className="btn bg-red-500 hover:bg-red-600 text-white"
+        className="btn bg-red-900 hover:bg-red-600 text-white"
       >
         Uninstall
       </button>

@@ -17,13 +17,13 @@ const AppCard = ({ card }) => {
         <div className="card-body ">
           <h2 className="card-title">{title}</h2>
           <div className="flex justify-between items-center  pr-0 gap-4">
-            <p className=" flex items-center gap-1 bg-green-300 p-1 rounded font-bold">
+            <p className=" flex items-center gap-1 bg-green-500 p-1 rounded font-bold">
               <span>
                 <FaDownload />
               </span>
               <span>{downloads}</span>
             </p>
-            <p className="flex items-center gap-1  bg-amber-300 p-1 rounded font-bold ">
+            <p className="flex items-center gap-1  bg-amber-700 p-1 rounded font-bold ">
               <span>
                 <FaStar />
               </span>

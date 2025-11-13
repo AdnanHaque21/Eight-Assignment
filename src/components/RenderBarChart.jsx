@@ -26,7 +26,7 @@ const RatingsChart = ({ ratings }) => {
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
             <Bar
               dataKey="count"
-              fill="#FFBF46"
+              fill="#0000FF"
               barSize={25}
               radius={[5, 5, 5, 5]}
             />
